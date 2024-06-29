@@ -1,0 +1,17 @@
+http:
+  port: 8081
+application:
+  backend:
+    bank-service:
+      host: http://localhost:8089
+      find-banks-api-uri: /api/v2/banks
+  cors:
+    enabled: true
+    origins:
+      - http://localhost:4200
+    methods:
+      - GET
+      - POST
+      - PUT
+      - DELETE
+    credentials: false
