@@ -1,1 +1,1 @@
-# -locations-info-bff-service-
+# locations-info-bff-service-
